@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shekhar Jadhav | Home</title>
+  <style>
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #1e1f26, #343a40);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    header {
+      width: 100%;
+      padding: 20px 0;
+      background-color: rgba(255, 255, 255, 0.05);
+      text-align: center;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #00adb5;
+      animation: fadeInDown 1.2s ease-out;
+    }
+
+    section {
+      max-width: 900px;
+      text-align: center;
+      margin-top: 60px;
+      animation: fadeInUp 1.5s ease;
+      padding: 0 20px;
+    }
+
+    section h2 {
+      font-size: 1.8rem;
+      color: #00adb5;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      border: 2px solid #00adb5;
+      border-radius: 30px;
+      color: #00adb5;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #00adb5;
+      color: #fff;
+      transform: scale(1.05);
+    }
+
+    footer {
+      margin-top: auto;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #999;
+      background-color: rgba(255, 255, 255, 0.05);
+      width: 100%;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shekhar Jadhav</h1>
+  </header>
+
+  <section>
+    <h2>Welcome to My Personal Page</h2>
+    <p>
+      Hi! I'm <strong>Shekhar Jadhav</strong>, a passionate learner who loves exploring technology, design, and creativity.  
+      This page is a small introduction about me — my interests, projects, and what drives me to keep learning new things every day.
+    </p>
+
+    <h2>My Interests</h2>
+    <p>
+      🌐 Web Development | 🎨 UI Design | 💡 Innovation | 📚 Continuous Learning  
+      I enjoy building user-friendly websites and experimenting with HTML, CSS, and JavaScript.
+    </p>
+
+    <a href="#" class="btn">View My Projects</a>
+  </section>
+
+  <footer>
+    © 2025 Shekhar Jadhav. All Rights Reserved.
+  </footer>
+</body>
+</html>
